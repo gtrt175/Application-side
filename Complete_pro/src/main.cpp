@@ -5,10 +5,10 @@
 #include "SensorControl.h" //センサの値を管理するクラス
 #include "GasCommand.h" //gas操作用のクラス
 
-const char* auth = "XXXXXXXXXXXXXX";  //Blynkと連携するためのトークン宣言
-const char* ssid = "XXXXXXXXXXXXXX";  //wifiネットワークのSSID宣言
-const char* password = "XXXXXXXXXXXXX";  //wifiネットワークのパスワード宣言
-const char* address = "XXXXXXXXXXXXXXXX"; //メールアドレス宣言
+const String auth = "XXXXXXXXXXXXXX";  //Blynkと連携するためのトークン宣言
+const String ssid = "XXXXXXXXXXXXXX";  //wifiネットワークのSSID宣言
+const String password = "XXXXXXXXXXXXX";  //wifiネットワークのパスワード宣言
+const String address = "XXXXXXXXXXXXXXXX"; //メールアドレス宣言
 const String exec_url = "XXXXXXXXXXXXXXXXXXXX";  //GASのウェブアプリケーション識別用URL
 
 
